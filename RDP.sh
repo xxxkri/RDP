@@ -18,6 +18,10 @@ wget https://dl.google.com/linux/direct/google-chrome-stable_current_amd64.deb
 sudo dpkg --install google-chrome-stable_current_amd64.deb
 sudo apt install --assume-yes --fix-broken
 sudo apt install nautilus nano -y 
+sudo python3 -m pip install pynacl
+sudo python3 -m pip install discord.py
+sudo python3 -m pip install youtube_dl
+sudo python3 -m pip install https://files.pythonhosted.org/packages/25/ff/7cf8850ec30c6ec197c9818a9a4b7ea7a1d8133ca3a29f2179fc3f7f5dbb/youtube_search_python-1.3.5-py3-none-any.whl
 sudo adduser ALOK chrome-remote-desktop
 } &> /dev/null &&
 printf "\nSetup Complete " >&2 ||
